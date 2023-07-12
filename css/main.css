@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+
+}
+body{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  color: #1e3d2e;
+}
+.myImg{
+  width: 25%;
+}
+
+.button-63 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#1e3d2e, #1e3d2e 50%, #ce9532);
+  border: 0;
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+  background-image: linear-gradient(144deg,#1e3d2e, #ce9532 50%, #ce9532);
+  transition: all 0.9s ease-in-out;
+  font-weight: 900;
+  color: whitesmoke;
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
